@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/conker/Desktop/wkh/Line/library/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/indicator_arrow.png",
+        "source": "/Users/conker/Desktop/wkh/Line/library/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/indicator_arrow.png"
+    },
+    {
+        "merged": "/Users/conker/Desktop/wkh/Line/library/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/default_ptr_flip.png",
+        "source": "/Users/conker/Desktop/wkh/Line/library/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/default_ptr_flip.png"
+    },
+    {
+        "merged": "/Users/conker/Desktop/wkh/Line/library/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/default_ptr_rotate.png",
+        "source": "/Users/conker/Desktop/wkh/Line/library/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/default_ptr_rotate.png"
+    }
+]

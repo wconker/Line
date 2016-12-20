@@ -1,0 +1,215 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    -->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Black.NoTitleBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="custom_dlg" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/tran</item>
+    </style>
+
+
+
+    <style name="line_base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+    </style>
+
+    <style name="line_horizontal" parent="line_base">
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+    <style name="line_vertical">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:layout_marginBottom">12dp</item>
+    </style>
+
+    <style name="line_vertical_gray">
+        <item name="android:layout_width">1px</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/gray</item>
+    </style>
+
+    <style name="line_horizontal_gray" parent="line_base">
+        <item name="android:background">@color/gray</item>
+    </style>
+
+    <style name="line_horizontal_left" parent="line_base">
+        <item name="android:background">@color/grayline</item>
+        <item name="android:layout_marginLeft">12dp</item>
+    </style>
+
+    <style name="line_horizontal_left_min" parent="line_base">
+        <item name="android:background">@color/grayline_black</item>
+        <item name="android:layout_marginLeft">8dp</item>
+    </style>
+
+    <style name="base">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ll_container" parent="base">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:textSize">@dimen/text_size_level3</item>
+    </style>
+
+    <style name="textview2">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:textSize">@dimen/level2_tv_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="textview" parent="base">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="ll_vertical" parent="base">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="StyleTextBarTitle">
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:shadowColor">#ff000000</item>
+        <item name="android:shadowDx">2.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">1.0</item>
+    </style>
+
+    <style name="StyleTextBarTitle.TextBtn" parent="@style/StyleTextBarTitle">
+        <item name="android:textSize">@dimen/level1_tv_size</item>
+    </style>
+
+
+
+    <style name="dialog_fullscreen">
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog的windowFrame框为无 -->
+        <item name="android:windowIsFloating">false</item>
+        <!-- 是否漂现在activity上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 是否半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- <item name="android:windowFullscreen">true</item> -->
+    </style>
+
+
+
+    <style name="ThemeDialogCustom">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowBackground">@color/transparent_color</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+    
+    
+      <style name="dialog" parent="@android:style/Theme.Dialog">
+<!--         <item name="android:windowFrame">@null</item> -->
+<!--         <item name="android:windowIsFloating">true</item> -->
+<!--         <item name="android:windowIsTranslucent">false</item> -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@null</item>
+<!--         <item name="android:backgroundDimEnabled">false</item> -->
+    </style>
+
+    <style name="style_radiobutton_list">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/background</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@drawable/menu_textcolor</item>
+    </style>
+      
+  
+
+      
+      
+      
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="#c40010"
+        android:visibility="gone" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/img_bar_bg"
+        android:gravity="center_vertical" >
+
+	        <Button
+	            android:id="@+id/left"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="8dp"
+	            android:background="@color/img_bar_bg"
+	            android:padding="10dp"
+	            android:textColor="@android:color/white"
+	            android:textSize="@dimen/level1_tv_size" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_level1" />
+
+        <Button
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@color/img_bar_bg"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/level1_tv_size" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">专线</string>
+    <string name="image_contentDescription"></string>
+    <string name="account_login_label">用户登录</string>
+    <string name="account_login">登录</string>
+    <string name="account_name_hint">请输入帐号</string>
+    <string name="account_password_hint">请输入密码</string>
+    <string name="account_remember">自动登录</string>
+    <string name="account_forgot">忘记密码?</string>
+    <string name="send_tab">我要调车</string>
+    <string name="send_tab_record">发布记录</string>
+    <string name="menu_first_page">管理中心</string>
+    <string name="menu_find_goods">开单</string>
+    <string name="menu_shopping">服务</string>
+    <string name="menu_tools">工具</string>
+    <string name="menu_person">我</string>
+    <string name="account_register">注册</string>
+    <string name="account_login_by_sms">短信登录</string>
+    <string name="visitor">暂不注册，看看再说</string>
+    <string name="home_hint">承载信任   共创未来</string>
+    <string name="home_phone">0571-88691999</string>
+    <string name="home_phone_label">客服电话:</string>
+    <string name="home_compare">杭州企运信息技术有限公司</string>
+    <string name="register_declaration">我已同意用户协议及声明!</string>
+    <string name="register_type">请选择身份</string>
+    <string name="register_phone">输入手机号</string>
+    <string name="register_valid">输入验证码</string>
+    <string name="register_getValid">获取验证码</string>
+    <string name="register">注册</string>
+    <string name="refer">提交</string>
+    <string name="register_tip">注册过程中若遇问题，请点击右上角&quot;帮助&quot;联系客服。</string>
+    <string name="register_company">杭州企运祝您使用愉快!</string>
+    <string name="register_password">登录密码</string>
+    <string name="register_password_sam">确认密码</string>
+    <string name="register_yqm">输入邀请码(可选)</string>
+    <string name="no_net">网络未连接，请稍后再试！</string>
+    <string name="send_good">发布</string>
+    <string name="activity_account">com.dongyang.android.activity.AccountActivity</string>
+    <string name="activity_person">com.dongyang.android.activity.PersonActivity</string>
+    <string name="search">搜索</string>
+    <string name="home_adress">地址:杭州市滨江区江南大道亚科中心</string>
+    <string name="only_choose_num">超出可选图片张数</string>
+    <string name="hot_name">热门推荐</string>
+    <string name="identity">身份认证通过才能联系货主,请填写您的真实信息!</string>
+    <string name="title_activity_test2">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_share">Share</string>
+    <string name="title_activity_index">Index</string>
+    <string name="title_activity_test">test</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
